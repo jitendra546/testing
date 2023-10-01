@@ -2,6 +2,7 @@
   "name": "tester",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/jitendra546/jitu",
   "scripts": {
     "start": "npx parcel index.html",
     "build": "npx build parcel index.html",
