@@ -2,14 +2,16 @@
   "name": "tester",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "npx parcel index.html",
-    "build": "npx build parcel index.html"
+    "build": "npx build parcel index.html",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.0.0",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   },
