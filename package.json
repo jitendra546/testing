@@ -2,11 +2,11 @@
   "name": "tester",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/jitendra546/jitu",
+  "homepage": "https://jitendra546.github.io/testing",
   "scripts": {
     "start": "npx parcel index.html",
-    "build": "npx build parcel index.html",
-    "predeploy": "npm run build", 
+    "build": "npx parcel build index.html",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "author": "",
